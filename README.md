@@ -1,3 +1,3 @@
 # Custom website for FrozenCore Technologies
 
-Currently in construction
+Currently in construction / Old structure
