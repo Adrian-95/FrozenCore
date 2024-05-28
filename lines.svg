@@ -3,51 +3,51 @@
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 1676 1599" style="enable-background:new 0 0 1676 1599;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:#D4E0FF;}
-	.st1{fill:url(#Path-2-Copy_00000115493264562918026510000014730803922540493212_);}
-	.st2{fill:url(#Path-2-Copy-3_00000054252708137099336470000012624298657019657890_);}
+	.st0{fill:#5F7FFF;}
+	.st1{fill:url(#Path-2-Copy_00000152951532759001790220000010929495087905520042_);}
+	.st2{fill:url(#Path-2-Copy-3_00000040557772266248135810000010629869855664455074_);}
 	.st3{fill:#9FFDFF;}
-	.st4{fill:url(#Path-2-Copy-2_00000000224488627012684750000014545019148497660033_);}
-	.st5{fill:url(#Path-2-Copy-2_00000125590563683445795700000016837026483248022205_);}
+	.st4{fill:url(#Path-2-Copy-2_00000031199591187579351750000016935022094278642822_);}
+	.st5{fill:url(#Path-2-Copy-2_00000029012934306862516600000015102966639303019445_);}
 </style>
 <g id="Page-1">
 	<g id="lines" transform="translate(0.000000, -70.000000)">
 		
 			<g id="Lines-Copy" transform="translate(853.477885, 853.477885) rotate(-45.000000) translate(-853.477885, -853.477885) translate(-282.022115, 781.977885)">
-			<polygon id="Path-2-Copy" class="st0" points="177.6,55.8 177.6,54.8 1685,54.8 1685,55.8 			"/>
+			<polygon id="Path-2-Copy" class="st0" points="213.8,299.6 213.1,298.9 1279,-767 1279.7,-766.3 			"/>
 			
-				<linearGradient id="Path-2-Copy_00000013174894116338818920000006850156635654167981_" gradientUnits="userSpaceOnUse" x1="537.037" y1="-594.9128" x2="538.1247" y2="-594.7828" gradientTransform="matrix(15.7556 0 0 1 -6788.5308 649.8614)">
+				<linearGradient id="Path-2-Copy_00000122701431276410136750000001876327461918734224_" gradientUnits="userSpaceOnUse" x1="-281.2693" y1="1288.4075" x2="-280.1816" y2="1288.2775" gradientTransform="matrix(8.3778 -7.3778 7.3778 -8.3778 -5878.9272 7961.2041)">
 				<stop  offset="0" style="stop-color:#FFFFFF;stop-opacity:0"/>
 				<stop  offset="1" style="stop-color:#FFFFFF"/>
 			</linearGradient>
 			
-				<polygon id="Path-2-Copy_00000054985927099995935910000017915480745300241833_" style="fill:url(#Path-2-Copy_00000013174894116338818920000006850156635654167981_);" points="
-				1669.2,55.8 1669.2,54.8 1685,54.8 1685,55.8 			"/>
+				<polygon id="Path-2-Copy_00000054985927099995935910000017915480745300241833_" style="fill:url(#Path-2-Copy_00000122701431276410136750000001876327461918734224_);" points="
+				1268.5,-755.2 1267.8,-755.9 1279,-767 1279.7,-766.3 			"/>
 			
-				<linearGradient id="Path-2-Copy-3_00000178892786560215359290000009387454237742705810_" gradientUnits="userSpaceOnUse" x1="513.8414" y1="-594.8972" x2="514.9415" y2="-594.7659" gradientTransform="matrix(1507.3591 0 0 1 -774177.5625 736.2192)">
+				<linearGradient id="Path-2-Copy-3_00000000191083454321042510000005849148972940717713_" gradientUnits="userSpaceOnUse" x1="-311.748" y1="1257.8729" x2="-310.6478" y2="1257.7417" gradientTransform="matrix(754.1796 -753.1796 753.1796 -754.1796 -711925.625 714130)">
 				<stop  offset="0" style="stop-color:#1B9797"/>
 				<stop  offset="0.3798" style="stop-color:#229BD5"/>
 				<stop  offset="1" style="stop-color:#1EC5C0"/>
 			</linearGradient>
-			<polygon id="Path-2-Copy-3" style="fill:url(#Path-2-Copy-3_00000178892786560215359290000009387454237742705810_);" points="
-				53.6,142.2 53.6,141.2 1561,141.2 1561,142.2 			"/>
-			<polygon id="Path-2-Copy-3_00000054233661087259690110000003350080720965241279_" class="st3" points="0.6,0.8 0.6,-0.2 
-				1508,-0.2 1508,0.8 			"/>
+			<polygon id="Path-2-Copy-3" style="fill:url(#Path-2-Copy-3_00000000191083454321042510000005849148972940717713_);" points="
+				187.2,448.3 186.5,447.6 1252.4,-618.3 1253.1,-617.6 			"/>
+			<polygon id="Path-2-Copy-3_00000054233661087259690110000003350080720965241279_" class="st3" points="49.7,385.8 49,385.1 
+				1114.9,-680.8 1115.6,-680.1 			"/>
 			
-				<linearGradient id="Path-2-Copy-2_00000173842180250042057730000009898085927831550903_" gradientUnits="userSpaceOnUse" x1="512.731" y1="-596.6838" x2="513.8311" y2="-596.5524" gradientTransform="matrix(991.1001 0 0 1 -507910.375 693.8614)">
+				<linearGradient id="Path-2-Copy-2_00000034058834492616380440000008913354137601925541_" gradientUnits="userSpaceOnUse" x1="-313.7498" y1="1258.468" x2="-312.6497" y2="1258.3367" gradientTransform="matrix(496.05 -495.05 495.05 -496.05 -467093.5312 469238.0625)">
 				<stop  offset="0" style="stop-color:#196D88"/>
 				<stop  offset="1" style="stop-color:#164B53"/>
 			</linearGradient>
-			<polygon id="Path-2-Copy-2" style="fill:url(#Path-2-Copy-2_00000173842180250042057730000009898085927831550903_);" points="
-				8.7,98 8.7,97 999.8,97 999.8,98 			"/>
+			<polygon id="Path-2-Copy-2" style="fill:url(#Path-2-Copy-2_00000034058834492616380440000008913354137601925541_);" points="
+				124.2,448.8 123.5,448.1 824.3,-252.7 825,-252 			"/>
 			
-				<linearGradient id="Path-2-Copy-2_00000109745424150330289660000010978941413512432061_" gradientUnits="userSpaceOnUse" x1="518.951" y1="-594.8949" x2="520.0184" y2="-594.7676" gradientTransform="matrix(69.3662 0 0 1 -33780.2461 693.8614)">
+				<linearGradient id="Path-2-Copy-2_00000072279505695438777200000001736550997341467311_" gradientUnits="userSpaceOnUse" x1="-305.0699" y1="1264.604" x2="-304.0025" y2="1264.4767" gradientTransform="matrix(35.1831 -34.1831 34.1831 -35.1831 -30809.6348 32954.1367)">
 				<stop  offset="0" style="stop-color:#224AD5;stop-opacity:0"/>
 				<stop  offset="1" style="stop-color:#1EC5C0"/>
 			</linearGradient>
 			
-				<polygon id="Path-2-Copy-2_00000022536039824903158460000017768505832850455442_" style="fill:url(#Path-2-Copy-2_00000109745424150330289660000010978941413512432061_);" points="
-				2200.6,99.8 2200.6,98.8 2270,98.8 2270,99.8 			"/>
+				<polygon id="Path-2-Copy-2_00000022536039824903158460000017768505832850455442_" style="fill:url(#Path-2-Copy-2_00000072279505695438777200000001736550997341467311_);" points="
+				1675.4,-1099.8 1674.7,-1100.5 1723.7,-1149.6 1724.5,-1148.9 			"/>
 		</g>
 	</g>
 </g>
