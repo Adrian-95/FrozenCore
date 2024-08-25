@@ -2,50 +2,6 @@
 <!-- Generator: Adobe Illustrator 27.5.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 565 566" style="enable-background:new 0 0 565 566;" xml:space="preserve">
-<style type="text/css">
-	.st0{opacity:0.367;fill-rule:evenodd;clip-rule:evenodd;fill:#234E5F;enable-background:new    ;}
-	.st1{opacity:0.721;fill:none;stroke:url(#SVGID_1_);enable-background:new    ;}
-	.st2{fill-rule:evenodd;clip-rule:evenodd;fill:#08C5FA;}
-	.st3{fill:none;stroke:url(#SVGID_00000153683860686042489650000008491813147704078483_);stroke-miterlimit:10;}
-</style>
-<g>
-	<path class="st0" d="M564.8,406.9L405.6,566L246.5,406.9l159.1-159.1L564.8,406.9z"/>
-	
-		<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="-1199.42" y1="668.222" x2="-1200.298" y2="669.1136" gradientTransform="matrix(-612.028 -1.200512e-05 -1.200512e-05 612.028 -734227.9375 -409122.1562)">
-		<stop  offset="0" style="stop-color:#224AD5"/>
-		<stop  offset="0.3798" style="stop-color:#229BD5"/>
-		<stop  offset="1" style="stop-color:#1EC5C0"/>
-	</linearGradient>
-	<path class="st1" d="M-206.4-204.8l612,612"/>
-	<g transform="translate(351 106)">
-		<path class="st2" d="M83.7,300.9l-3.5,3.5l-3.5-3.5l3.4-3.5L83.7,300.9z M32.7,300.9l-3.5,3.5l-3.5-3.5l3.4-3.5L32.7,300.9z
-			 M58.7,325.9l-3.5,3.5l-3.5-3.5l3.4-3.5L58.7,325.9z M58.7,274.9l-3.5,3.5l-3.5-3.5l3.4-3.5L58.7,274.9z M57.7,248.5l-2.1,2.1
-			l-2.1-2.1l2-2.1L57.7,248.5z M57.7,352.5l-2.1,2.1l-2.1-2.1l2.1-2.1L57.7,352.5z M5.7,300.5l-2.1,2.1l-2.1-2.1l2.1-2.1L5.7,300.5z
-			 M107.8,300.5l-2.1,2.1l-2.1-2.1l2.1-2.1L107.8,300.5z"/>
-		<circle class="st2" cx="67.1" cy="313.4" r="3"/>
-		<circle class="st2" cx="42.1" cy="313.4" r="3"/>
-		<circle class="st2" cx="67.1" cy="287.4" r="3"/>
-		<circle class="st2" cx="42.1" cy="287.4" r="3"/>
-		<circle class="st2" cx="42.1" cy="262.4" r="2"/>
-		<circle class="st2" cx="42.1" cy="339.4" r="2"/>
-		<circle class="st2" cx="67.1" cy="262.4" r="2"/>
-		<circle class="st2" cx="67.1" cy="339.4" r="2"/>
-		<circle class="st2" cx="80.1" cy="326.4" r="2"/>
-		<circle class="st2" cx="80.1" cy="276.5" r="2"/>
-		<circle class="st2" cx="29.1" cy="326.4" r="2"/>
-		<circle class="st2" cx="29.1" cy="276.5" r="2"/>
-		<circle class="st2" cx="16.1" cy="313.4" r="2"/>
-		<circle class="st2" cx="93.1" cy="313.4" r="2"/>
-		<circle class="st2" cx="16.1" cy="288.4" r="2"/>
-		<circle class="st2" cx="93.1" cy="288.4" r="2"/>
-		<path class="st2" d="M62.7,300.5l-7.1,7.1l-7.1-7.1l7.1-7.1L62.7,300.5z"/>
-	</g>
-</g>
-<linearGradient id="SVGID_00000059989996959583814020000001988845918467721653_" gradientUnits="userSpaceOnUse" x1="-399.8599" y1="-313.2441" x2="-246.4119" y2="-313.2441" gradientTransform="matrix(-0.6598 0.7514 -0.7514 -0.6598 6.6964 493.2499)">
-	<stop  offset="0" style="stop-color:#224AD5"/>
-	<stop  offset="0.3798" style="stop-color:#229BD5"/>
-	<stop  offset="1" style="stop-color:#1EC5C0"/>
-</linearGradient>
-<path style="fill:none;stroke:url(#SVGID_00000059989996959583814020000001988845918467721653_);stroke-miterlimit:10;" d="
-	M494.6,390c0.1,8.5-0.4,45.5-29,77.5c-27.8,31.1-63.1,36.3-71.8,37.3"/>
+<image style="overflow:visible;" width="600" height="600" xlink:href="../../../Desktop/pngwing.com.png"  transform="matrix(1 0 0 1 -31 -17)">
+</image>
 </svg>
