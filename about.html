@@ -3950,6 +3950,15 @@
                 }
             }
 
+            .generic-banner-inner:after {
+                content: "";
+                background: url(images/cloud.png) no-repeat 0 0;
+                display: block;
+                margin: 50px auto 0;
+                height: 100px;
+                width: 120px;
+            }
+
             .icon-list-heading {
                 position: relative;
                 margin-bottom: 60px;
@@ -5037,36 +5046,6 @@
             }
         </style>
     </head>
-    <body>
-        <div id="___gatsby">
-            <div data-reactroot="">
-                <script>
-                    (function(d) {
-                        var config = {
-                            kitId: 'xzn8dol',
-                            scriptTimeout: 3000,
-                            async: true
-                        }, h = d.documentElement, t = setTimeout(function() {
-                            h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive";
-                        }, config.scriptTimeout), tk = d.createElement("script"), f = false, s = d.getElementsByTagName("script")[0], a;
-                        h.className += " wf-loading";
-                        tk.src = 'https://use.typekit.net/' + config.kitId + '.js';
-                        tk.async = true;
-                        tk.onload = tk.onreadystatechange = function() {
-                            a = this.readyState;
-                            if (f || a && a != "complete" && a != "loaded")
-                                return;
-                            f = true;
-                            clearTimeout(t);
-                            try {
-                                Typekit.load(config)
-                            } catch (e) {}
-                        }
-                        ;
-                        s.parentNode.insertBefore(tk, s)
-                    }
-                    )(document);
-                </script>
                 <div>
                     <header class="header">
                         <button class="menu-toggler">
@@ -5082,6 +5061,7 @@
                             <a class="active desktop-nav-item" href="/about">About</a>
                             <a class="desktop-nav-item" href="/contact">Contact</a>
                         </nav>
+                        <a href="mailto:adrianpopescu195@gmail.com?subject=911%20-%20DevOps%20Services%20Needed&amp;" class="header-button-911">Infra down? Get Help Now!</a>
                     </header>
                 </div>
                 <div>
