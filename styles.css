@@ -4028,7 +4028,7 @@ hr {
     color: #fff
 }
 
-.network-security-diamond-1 {
+.network-consulting-diamond-1 {
     position: absolute;
     z-index: 0;
     width: 422px;
@@ -4237,9 +4237,9 @@ hr {
     padding-bottom: 160px
 }
 
-.security:before {
+.consulting:before {
     content: " ";
-    background: url(images/lines.svg) no-repeat 75% 0;
+    background: url(images/bl.svg) no-repeat 75% 0;
     background-size: initial;
     position: absolute;
     z-index: 1;
@@ -4250,7 +4250,7 @@ hr {
 }
 
 @media screen and (min-width: 1000px) {
-    .security:before {
+    .consulting:before {
         background-position:-650px 0;
         width: 1708px;
         top: 100px;
@@ -4259,18 +4259,18 @@ hr {
     }
 }
 
-.security .generic-banner-section {
+.consulting .generic-banner-section {
     padding-top: 120px;
     padding-bottom: 120px
 }
 
 @media screen and (min-width: 1000px) {
-    .security .generic-banner-section {
+    .consulting .generic-banner-section {
         padding-top:210px
     }
 }
 
-.security .generic-banner-inner:after {
+.consulting .generic-banner-inner:after {
     content: "";
     background: url(images/devops.png) no-repeat 0 0;
     display: block;
@@ -4279,43 +4279,43 @@ hr {
     width: 355px
 }
 
-.security .generic-banner-inner h2 {
+.consulting .generic-banner-inner h2 {
     margin-bottom: 30px;
     line-height: 30px
 }
 
 @media screen and (min-width: 1000px) {
-    .security .right .content {
+    .consulting .right .content {
         padding-right:50%
     }
 
-    .security .left .content {
+    .consulting .left .content {
         padding-left: 50%
     }
 }
 
-.security .text-heading {
+.consulting .text-heading {
     font-family: proxima-nova,sans-serif;
     text-transform: none;
     font-weight: 300
 }
 
-.security .text-heading:after {
+.consulting .text-heading:after {
     width: 41px;
     height: 1px
 }
 
-.security .generic-banner-heading {
+.consulting .generic-banner-heading {
     font-size: 42px;
     font-weight: 600;
     letter-spacing: 3.5px
 }
 
-.security .generic-banner-heading:after {
+.consulting .generic-banner-heading:after {
     display: none
 }
 
-.security .generic-banner-subheading {
+.consulting .generic-banner-subheading {
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 20px;
@@ -4356,30 +4356,30 @@ hr {
     display: none
 }
 
-.securityBlog {
+.consultingBlog {
     padding-top: 100px;
     padding-bottom: 160px
 }
 
 @media screen and (min-width: 900px) {
-    .securityBlog {
+    .consultingBlog {
         padding-top:120px;
         padding-bottom: 130px
     }
 }
 
-.securityBlog p {
+.consultingBlog p {
     font-size: 18px;
     letter-spacing: .5px;
     text-align: center;
     color: #fff
 }
 
-.securityBlog .cta {
+.consultingBlog .cta {
     padding-top: 30px
 }
 
-.securityBlog .cta .button {
+.consultingBlog .cta .button {
     font-size: 16px;
     font-weight: 700;
     letter-spacing: 2px;
@@ -4405,7 +4405,7 @@ hr {
 .handpickedTeam:before {
     content: "";
     position: absolute;
-    background: url("/security/diamond-handpicked.svg") no-repeat 0 0;
+    background: url("/consulting/diamond-handpicked.svg") no-repeat 0 0;
     background-size: contain;
     height: 190vw;
     width: 190vw;
@@ -4462,7 +4462,7 @@ hr {
 .customerFirst:before {
     content: "";
     position: absolute;
-    background: url("/security/diamond-handpicked.svg") no-repeat 0 0;
+    background: url("/consulting/diamond-handpicked.svg") no-repeat 0 0;
     background-size: contain;
     height: 190vw;
     width: 190vw;
