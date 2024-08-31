@@ -5002,6 +5002,7 @@
             .mobile-menu-toggle,
             .mobile-menu {
                 display: none; /* Initially hidden */
+                border: none;
             }
 
             @media only screen and (max-width: 1000px) {
@@ -5013,6 +5014,8 @@
                     position: absolute; /* Position it absolutely */
                     top: 10px; /* Adjust top position as needed */
                     right: 10px; /* Adjust right position as needed */
+                    outline: none;
+                    border: none;
                 }
             }
 
@@ -5028,8 +5031,9 @@
                 display: none; /* Hidden by default */
                 text-align: left; /* Align items to the left */
                 opacity: 0;
+                max-height: 0;
                 overflow: hidden;
-                transition: opacity 0.5s ease-in-out;
+                transition: opacity 0.5s ease-in-out, max-height 0.5s ease-in-out, visibility 0.5s ease-in-out;
             }
 
             .mobile-menu ul {
@@ -5057,9 +5061,10 @@
 
             .mobile-menu.active {
                 visibility: visible;
-                display: block; 
+                /* display: block; */
                 opacity: 1;
-                height: auto;
+                /* height: auto; */
+                max-height: 500px;
             }
 
             .mobile-menu-toggle svg {
