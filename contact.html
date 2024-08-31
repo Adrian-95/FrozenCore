@@ -26,35 +26,23 @@
     <body>
         <div id="___gatsby">
             <div data-reactroot="">
-                <script>
-                    (function(d) {
-                        var config = {
-                            kitId: 'xzn8dol',
-                            scriptTimeout: 3000,
-                            async: true
-                        }, h = d.documentElement, t = setTimeout(function() {
-                            h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive";
-                        }, config.scriptTimeout), tk = d.createElement("script"), f = false, s = d.getElementsByTagName("script")[0], a;
-                        h.className += " wf-loading";
-                        tk.src = 'https://use.typekit.net/' + config.kitId + '.js';
-                        tk.async = true;
-                        tk.onload = tk.onreadystatechange = function() {
-                            a = this.readyState;
-                            if (f || a && a != "complete" && a != "loaded")
-                                return;
-                            f = true;
-                            clearTimeout(t);
-                            try {
-                                Typekit.load(config)
-                            } catch (e) {}
-                        }
-                        ;
-                        s.parentNode.insertBefore(tk, s)
-                    }
-                    )(document);
-                </script>
                 <div>
                     <header class="header">
+                        <!-- Mobile Menu Trigger -->
+                        <button class="mobile-menu-toggle" aria-label="Toggle menu">
+                            <svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                                <path fill="currentColor" d="M3 6h18v2H3V6zm0 5h18v2H3v-2zm0 5h18v2H3v-2z"/>
+                            </svg>
+                        </button>
+
+                        <!-- Mobile Menu Container -->
+                        <nav class="mobile-menu" role="navigation">
+                        <ul>
+                            <li><a href="">Consulting</a></li>
+                            <li><a href="/about">About</a></li>
+                            <li><a href="/contact">Contact</a></li>
+                        </ul>
+                        </nav>
                         <button class="menu-toggler">
                             <svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="align-left" class="svg-inline--fa fa-align-left fa-w-14 " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
                                 <path fill="currentColor" d="M12.83 344h262.34A12.82 12.82 0 0 0 288 331.17v-22.34A12.82 12.82 0 0 0 275.17 296H12.83A12.82 12.82 0 0 0 0 308.83v22.34A12.82 12.82 0 0 0 12.83 344zm0-256h262.34A12.82 12.82 0 0 0 288 75.17V52.83A12.82 12.82 0 0 0 275.17 40H12.83A12.82 12.82 0 0 0 0 52.83v22.34A12.82 12.82 0 0 0 12.83 88zM432 168H16a16 16 0 0 0-16 16v16a16 16 0 0 0 16 16h416a16 16 0 0 0 16-16v-16a16 16 0 0 0-16-16zm0 256H16a16 16 0 0 0-16 16v16a16 16 0 0 0 16 16h416a16 16 0 0 0 16-16v-16a16 16 0 0 0-16-16z"></path>
