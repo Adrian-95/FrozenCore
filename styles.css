@@ -4251,11 +4251,17 @@ hr {
 
 @media screen and (min-width: 1000px) {
     .consulting:before {
-        background-position:-650px 0;
+        background-position:-750px 0;
         width: 1708px;
         top: 100px;
         left: 50%;
-        transform: translateX(-50%)
+        transform: translateX(-50%);
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .consulting:before {
+        display:none;
     }
 }
 
@@ -5153,7 +5159,7 @@ hr {
 }
 
 .awards-images img {
-    max-width: 180px;
+    max-width: 170px;
 }
 
 .awards-images img.bigger {
