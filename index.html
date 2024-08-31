@@ -4998,40 +4998,98 @@
                     font-size: 14px
                 }
             }
+
+            .mobile-menu-toggle,
+            .mobile-menu {
+                display: none; /* Initially hidden */
+            }
+
+            @media only screen and (max-width: 1000px) {
+                .mobile-menu-toggle {
+                    display: block; /* Show the toggle button on mobile */
+                    width: 40px;
+                    height: 40px;
+                    background: none; /* Remove white background */
+                    position: absolute; /* Position it absolutely */
+                    top: 10px; /* Adjust top position as needed */
+                    right: 10px; /* Adjust right position as needed */
+                }
+            }
+
+            /* Style the mobile menu */
+            .mobile-menu {
+                position: absolute;
+                top: 100%; /* Position just below the header */
+                left: 0;
+                background: #091117; /* Dark background for contrast */
+                padding: 10px 20px;
+                width: 100%; /* Full width */
+                visibility: hidden;
+                display: none; /* Hidden by default */
+                text-align: left; /* Align items to the left */
+                opacity: 0;
+                overflow: hidden;
+                transition: opacity 0.5s ease-in-out;
+            }
+
+            .mobile-menu ul {
+                list-style: none;
+                padding: 0;
+                margin: 0;
+            }
+
+            .mobile-menu li {
+                border-bottom: 1px solid rgba(255, 255, 255, 0.2); /* Separator line */
+            }
+
+            .mobile-menu li a {
+                display: block;
+                padding: 10px;
+                font-weight: bold;
+                font-size: 22px;
+                color: #fff; /* Light text color on dark background */
+                text-decoration: none;
+            }
+
+            .mobile-menu li a:hover {
+                background-color: #444; /* Hover effect */
+            }
+
+            .mobile-menu.active {
+                visibility: visible;
+                display: block; 
+                opacity: 1;
+                height: auto;
+            }
+
+            .mobile-menu-toggle svg {
+                fill: currentColor;
+                width: 30px;
+                height: 30px;
+            }
         </style>
     </head>
     <body>
         <div id="___gatsby">
             <div data-reactroot="">
-                <script>
-                    (function(d) {
-                        var config = {
-                            kitId: 'xzn8dol',
-                            scriptTimeout: 3000,
-                            async: true
-                        }, h = d.documentElement, t = setTimeout(function() {
-                            h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive";
-                        }, config.scriptTimeout), tk = d.createElement("script"), f = false, s = d.getElementsByTagName("script")[0], a;
-                        h.className += " wf-loading";
-                        tk.src = 'https://use.typekit.net/' + config.kitId + '.js';
-                        tk.async = true;
-                        tk.onload = tk.onreadystatechange = function() {
-                            a = this.readyState;
-                            if (f || a && a != "complete" && a != "loaded")
-                                return;
-                            f = true;
-                            clearTimeout(t);
-                            try {
-                                Typekit.load(config)
-                            } catch (e) {}
-                        }
-                        ;
-                        s.parentNode.insertBefore(tk, s)
-                    }
-                    )(document);
-                </script>
                 <div>
                     <header class="header">
+                        <!-- Mobile Menu Trigger -->
+                        <button class="mobile-menu-toggle" aria-label="Toggle menu">
+                            <svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                                <path fill="currentColor" d="M3 6h18v2H3V6zm0 5h18v2H3v-2zm0 5h18v2H3v-2z"/>
+                            </svg>
+                        </button>
+
+                        <!-- Mobile Menu Container -->
+                        <nav class="mobile-menu" role="navigation">
+                        <ul>
+                            <li><a href="#">Consulting</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Contact</a></li>
+                            <!-- Add more menu items as needed -->
+                        </ul>
+                        </nav>
                         <button class="menu-toggler">
                             <svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="align-left" class="svg-inline--fa fa-align-left fa-w-14 " role="img" xmlns="images/menu.svg" viewBox="0 0 448 512">
                                 <path fill="currentColor" d="M12.83 344h262.34A12.82 12.82 0 0 0 288 331.17v-22.34A12.82 12.82 0 0 0 275.17 296H12.83A12.82 12.82 0 0 0 0 308.83v22.34A12.82 12.82 0 0 0 12.83 344zm0-256h262.34A12.82 12.82 0 0 0 288 75.17V52.83A12.82 12.82 0 0 0 275.17 40H12.83A12.82 12.82 0 0 0 0 52.83v22.34A12.82 12.82 0 0 0 12.83 88zM432 168H16a16 16 0 0 0-16 16v16a16 16 0 0 0 16 16h416a16 16 0 0 0 16-16v-16a16 16 0 0 0-16-16zm0 256H16a16 16 0 0 0-16 16v16a16 16 0 0 0 16 16h416a16 16 0 0 0 16-16v-16a16 16 0 0 0-16-16z"></path>
@@ -5227,5 +5285,6 @@
                 </footer>
             </div>
         </div>
+        <script src="script.js"></script>
     </body>
 </html>
